@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Do You have?"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/offlineView"
+        android:src="@drawable/offlinenew"
+        android:layout_marginBottom="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/onlineView"
+        android:src="@drawable/onlinenew"
+        android:layout_marginBottom="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/quizView"
+        android:src="@drawable/quiznew"
+        android:layout_marginBottom="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearId2"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/yesbutton2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Yes"
+
+
+            />
+
+        <Button
+            android:id="@+id/nobutton2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="No"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearId3"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/yesbutton3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Yes"/>
+
+        <Button
+            android:id="@+id/nobutton3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="No"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearId1"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/yesbutton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Yes"/>
+
+        <Button
+            android:id="@+id/nobutton"
+            android:layout_width="200dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

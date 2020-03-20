@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frameactivitycolor"
+    tools:context=".AbsoluteActivity6">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10px"
+        android:layout_y="300px"
+        android:text="Quiz "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/quizTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="150dp"
+            android:layout_y="150dp"
+            android:width="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10px"
+        android:layout_y="550px"
+        android:text="Online "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/onlineTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="250dp"
+        android:width="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10px"
+        android:layout_y="330dp"
+        android:text="Offline "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/offlineTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="350dp"
+        android:width="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+</AbsoluteLayout>

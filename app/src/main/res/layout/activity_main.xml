@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginimagenew"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="300dp"/>
+
+    <EditText
+        android:id="@+id/nametext1"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:padding="8dp"
+        android:background="#fff" />
+
+    <EditText
+        android:id="@+id/passtext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#fff"
+        android:hint="Password"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/nametext1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:background="@color/frameactivitycolor"
+        android:textColor="#434f65"
+        android:layout_below="@+id/passtext1"
+        android:layout_marginTop="17dp"
+        android:layout_alignStart="@+id/passtext1"
+        android:layout_alignEnd="@+id/passtext1" />
+
+
+
+</RelativeLayout>
